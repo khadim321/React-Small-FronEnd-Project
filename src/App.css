@@ -1,38 +1,66 @@
-.App {
+.header-color{
+background: #00c6ff;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #0072ff, #00c6ff);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #0072ff, #00c6ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+padding-bottom: 35%;
+}
+.mdl-layout{
+  position: relative !important;
+}
+.navstyle a{
+  font-weight: 900px;
+  font-size: 25px;
+  color: black !important;
+}
+
+
+.test
+{
+  margin: 'auto'; width: '100%' ; height: 100%;
+  background:linear-gradient(to right, #0072ff, #00c6ff);
+  text-align: center;
+  padding-bottom: 100%;
+
+}
+.img-style{
+  height: 250px;
+  width: 225px;
+  padding-top: 2em;
+}
+.banner-style{
+  background-color: white;
+  width: 70%;
+  margin: auto;
+  border-radius: 50px;
+}
+.banner-style h1 {
+  font-weight: 200;
+  font-size: 50px;
+  color:rgb(59, 46, 46) !important;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.banner-style p{
+  font-size: 25px;
+  color: rgb(59, 46, 46) !important;
+  text-align: center;
+  padding: 1em;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.social-link i{
+  color: rgb(59, 46, 46);
+  font-size: 5em;
+  padding: 8px;
 }
+.social-link{
+  display: -webkit-box;  /* OLD - iOS 6-, Safari 3.1-6, BB7 */
+  display: -ms-flexbox;  /* TWEENER - IE 10 */
+  display: -webkit-flex; /* NEW - Safari 6.1+. iOS 7.1+, BB10 */
+  display: flex;         /* NEW, Spec - Firefox, Chrome, Opera */
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  width: 50%;
+  margin: auto;
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }

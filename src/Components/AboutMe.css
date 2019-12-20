@@ -1,0 +1,47 @@
+.aboutme{
+    text-align: center;
+    background: #00c6ff;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #0072ff, #00c6ff);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #0072ff, #00c6ff); 
+    margin: 'auto'; width: '100%' ; height: 100%;
+    padding-top: 2%;
+    padding-bottom: 50%;
+}
+.introduction-section{
+    text-align: center;
+    font-size: 10px;
+}
+.introduction-section h3{
+    font-size: 50px;
+    padding-top: 35px;
+}
+.introduction-section h1{
+    font-size: 35px;
+}
+.introduction-section p{
+    font-size: 20px;
+}
+.location-section{
+    text-align: center;
+    font-size: 10px;
+}
+.location-section h1{
+    font-size: 35px;
+}
+.location-section p{
+    font-size: 20px;
+}
+.questions-section
+{
+    text-align: center;
+    font-size: 10px;
+}
+.questions-section h1{
+    font-size: 35px;
+}
+.questions-section h2{
+    font-size: 25px;
+}
+.questions-section p{
+    font-size: 20px;
+}
